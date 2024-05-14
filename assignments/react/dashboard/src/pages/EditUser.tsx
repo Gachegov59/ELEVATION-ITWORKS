@@ -82,7 +82,7 @@ const EditUser: FC = () => {
           />
         </div>
         {error && <p>{error}</p>}
-        <button type="submit" className='font-bold flex m-auto'>Update</button>
+        <button type="submit" className='font-bold flex auto'>Update</button>
       </form>
     </div>
   );
